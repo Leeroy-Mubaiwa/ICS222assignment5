@@ -38,20 +38,22 @@ body {
 }
 
 th {
-    font-weight: 900;
-    text-decoration: underline;
-    color: rgb(50, 50, 50);
+    font-weight: 100;
+    color: black;
+    border: 1px solid #cdcdcd;
+    text-align: left;
+    background-color: whitesmoke;
 }
 
 td {
     font-size: 14px;
+    border: 1px solid #cdcdcd;
+    width: auto;
 }
 
 table {
     border-collapse: collapse;
-    border: 1px solid #FF0000;
-}
-
-table td {
-    border: 1px solid #FF0000;
+    border: 1px solid #cdcdcd;
+    width: 80%;
+    margin: auto;
 }
