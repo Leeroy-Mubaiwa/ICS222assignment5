@@ -20,6 +20,7 @@ function myFunction() {
 }
 
 function myFunction2() {
-    var element = document.getElementsByClassName("tables");
-    element.classList.add("zebra");
-}
+    var element = document.getElementsByClassName("tables
+        ");
+        element.classList.add("zebra");
+    }
