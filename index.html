@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="tableui.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     </div>
     <div class="center-table">
 
-        <table>
+        <table class="tables">
             <th>Name</th>
             <th>Bounces</th>
 
@@ -37,7 +38,7 @@
 
     </div>
     <div class="center-table">
-        <table>
+        <table class="tables" name="tables">
             <th>Name</th>
             <th>Favorite Dish</th>
             <tr>
@@ -56,6 +57,9 @@
             </tr>
         </table>
 
+    </div>
+    <div class="center-table">
+        <button id="buttonChange" type="button" onclick="doFunction();">Change User Tabe Interface to Zebra</button>
     </div>
 </body>
 

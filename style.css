@@ -11,6 +11,27 @@
     padding: 20px;
 }
 
+.center-table button {
+    background-color: blueviolet;
+    border-style: dotted;
+    border-radius: 0px;
+    border-width: 1px;
+    color: white;
+}
+
+.zebra tr:nth-child(2n+1) {
+    background-color: black;
+    color: white;
+}
+
+.center-table button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: blueviolet;
+    box-shadow: 2px 2px 2px whitesmoke;
+    border-color: blueviolet;
+}
+
 .pane {
     width: 60%;
     height: fit-content;
