@@ -18,3 +18,8 @@ function myFunction() {
         element.className += " " + name;
     }
 }
+
+function myFunction2() {
+    var element = document.getElementsByClassName("tables");
+    element.classList.add("zebra");
+}
