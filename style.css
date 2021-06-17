@@ -35,7 +35,7 @@
 .pane {
     width: 60%;
     height: fit-content;
-    background-color: blueviolet;
+    background-color: whitesmoke;
     border-style: dotted;
     border-width: 0px;
     border-radius: 0px;
@@ -89,4 +89,18 @@ table {
     /*border: 1px solid #cdcdcd;*/
     width: 80%;
     margin: auto;
+}
+
+.bottom-pane {
+    width: 100%;
+    background-color: dimgray;
+    box-shadow: 2px 2px 2px #cdcdcd;
+    height: 50px;
+    /* background-color: blueviolet;
+    border-style: dotted;
+    border-radius: 0px;
+    border-width: 1px;
+    color: white;*/
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
